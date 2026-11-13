@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Арм - вкус — восточные сладости</title>
+<meta name="description" content="Арм - вкус: шокочелла, чурчхелла, фруктовые рулеты, пахлава и фручелла. Сила природы в каждом кусочке.">
+<link rel="icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header" id="header">
+  <a href="#top" class="brand"><img src="images/logo.jpg" alt="Арм - вкус"><span>Арм - вкус</span></a>
+  <nav class="nav" id="nav">
+    <a href="#catalog">Каталог</a><a href="#popular">Популярное</a><a href="#about">О бренде</a><a href="#contacts">Контакты</a>
+  </nav>
+  <div class="actions">
+    <a class="icon-btn" href="https://www.instagram.com/armvkus_company_55/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a>
+    <button class="icon-btn" id="cartBtn" aria-label="Корзина">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1.2 11H6.2L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+      <span class="badge" id="cartCount">0</span></button>
+    <button class="icon-btn burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-in">
+    <p class="eyebrow">Восточные сладости</p>
+    <h1>Сила природы<br>в каждом кусочке</h1>
+    <p class="lead">Чурчхелла, пахлава, фруктовые рулеты и конфеты из орехов и фруктов — вкус гор и солнца в красивой упаковке.</p>
+    <a href="#catalog" class="btn">Перейти в каталог</a>
+  </div>
+  <div class="showcase" aria-hidden="true"><div class="arch a1"><img src="images/churchkhela-2.jpg" alt=""></div><div class="arch a2"><img src="images/pakhlava-2.jpg" alt=""></div></div>
+</section>
+
+<section class="section" id="popular"><div class="wrap">
+  <h2 class="title reveal">Популярное</h2>
+  <div class="grid" id="popularGrid"></div>
+</div></section>
+
+<section class="section alt" id="catalog"><div class="wrap">
+  <h2 class="title reveal">Каталог</h2>
+  <div class="tabs reveal" id="tabs"></div>
+  <div class="grid" id="catalogGrid"></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="features">
+    <div class="feat reveal"><b>🌰</b><h3>Орехи и фрукты</h3><p>Грецкий орех, курага, миндаль и кокос в основе наших сладостей.</p></div>
+    <div class="feat reveal"><b>✋</b><h3>Ручная работа</h3><p>Каждая сладость создаётся с вниманием к деталям.</p></div>
+    <div class="feat reveal"><b>🎁</b><h3>Красивая упаковка</h3><p>Удобные лотки — готовый подарок для близких.</p></div>
+    <div class="feat reveal"><b>💬</b><h3>Быстрый заказ</h3><p>Оформите заявку — мы свяжемся с вами для подтверждения.</p></div>
+  </div>
+</div></section>
+
+<section class="section about" id="about"><div class="wrap two">
+  <div class="reveal"><h2 class="title left">О бренде</h2>
+  <p>«Арм - вкус» — бренд восточных сладостей, вдохновлённый горами, виноградниками и традициями кавказского стола. Гранат на нашем логотипе — символ изобилия и гостеприимства.</p>
+  <p>Наш девиз — <em>«Сила природы в каждом кусочке»</em>.</p></div>
+  <div class="about-img reveal"><img src="images/fruchella-2.jpg" alt="Фручелла" loading="lazy"></div>
+</div></section>
+</main>
+
+<footer class="footer" id="contacts"><div class="wrap fgrid">
+  <div><img class="flogo" src="images/logo.jpg" alt="Арм - вкус"></div>
+  <div><h4>Контакты</h4><p><a class="tel" href="tel:+79040760000">8 904 076-00-00</a></p><p><a class="wa" href="https://wa.me/79040760000" target="_blank" rel="noopener">Написать в WhatsApp</a></p><p>Заказы — через форму на сайте.</p></div>
+  <div><h4>Мы в соцсетях</h4>
+    <a class="icon-btn dark" href="https://www.instagram.com/armvkus_company_55/" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a></div>
+</div><p class="links"><a href="privacy.html">Политика конфиденциальности</a><a href="cookies.html">Политика cookie</a><a href="#" id="cookieSettings">Настройки cookie</a></p><p class="copy">© <span id="year"></span> Арм - вкус. Все права защищены. Название, логотип, фотографии и тексты сайта защищены авторским правом.</p></footer>
+
+<!-- Товар -->
+<div class="modal" id="productModal" aria-hidden="true"><div class="overlay" data-close></div><div class="dialog" role="dialog" aria-modal="true">
+  <button class="close" data-close aria-label="Закрыть">×</button><div id="productBody"></div></div></div>
+
+<!-- Корзина -->
+<aside class="drawer" id="drawer" aria-hidden="true"><div class="overlay" data-close></div><div class="panel">
+  <div class="panel-h"><h3>Корзина</h3><button class="close static" data-close aria-label="Закрыть">×</button></div>
+  <div class="panel-b" id="cartItems"></div>
+  <div class="panel-f"><div class="total"><span>Итого</span><b id="cartTotal">0 ₽</b></div><button class="btn full" id="checkoutBtn">Оформить заказ</button></div>
+</div></aside>
+
+<!-- Оформление -->
+<div class="modal" id="checkoutModal" aria-hidden="true"><div class="overlay" data-close></div><div class="dialog narrow" role="dialog" aria-modal="true">
+  <button class="close" data-close aria-label="Закрыть">×</button>
+  <div id="checkoutBody"></div></div></div>
+
+<div class="toast" id="toast"></div>
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body></html>
